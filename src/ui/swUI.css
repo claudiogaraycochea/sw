@@ -1,0 +1,58 @@
+body, html, .main-app, .app, #root {
+  height: 100%;
+  box-sizing: border-box;
+  background-color: #ffffff; 
+  color: #60347B;
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.2;
+	font-weight: 300;
+	font-size: 16px;
+}
+
+/* Scroll */
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+::-webkit-scrollbar:vertical {
+  width: 4px;
+}
+
+::-webkit-scrollbar:horizontal {
+  height: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #909090;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #353535;
+}
+
+/* General Containers */
+
+.main-container {
+  width: 100%;
+  height: calc(100% - 60px);
+  margin-top: 60px;
+  overflow-x: hidden;
+}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+}
+
+/* Extra large devices (smart tv HD, 1200px and up) */
+
+@media (min-width: 1200px) {
+}
+
+/* Ultra large devices (smart tv Full HD, 1200px and up) */
+
+@media (min-width: 1920px) {
+}
