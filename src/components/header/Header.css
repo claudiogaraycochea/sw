@@ -1,0 +1,24 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  font-size: 14px;
+  font-weight: bold;
+  z-index: 1000;
+}
+
+.nav-logo {
+	background-image: url(../../assets/images/logo.png);
+  background-position: center;
+  width: 120px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
