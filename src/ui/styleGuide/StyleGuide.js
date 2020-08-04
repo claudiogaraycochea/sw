@@ -13,7 +13,7 @@ import {
   Loading,
   Modal,
   Icon,
-} from '../npUI';
+} from '../swUI';
 
 const StyleGuide = () => {
   const [showModal, setModal] = useState(false);
