@@ -1,0 +1,17 @@
+.icon {
+  height: 32px;
+  width: 32px;
+  background-image: url('../../../assets/images/loading.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.icon.large {
+  height: 64px;
+  width: 64px;
+}
+
+.icon.search {
+  background-image: url('../../../assets/images/icon-search.svg');
+}
