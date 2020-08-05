@@ -1,20 +1,17 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import '../ui/Fonts.css';
 import '../ui/Normalize.css';
 import '../ui/swUI.css';
-
-import Header from '../components/header/Header';
-import Home from '../pages/private/home/Home';
-import Footer from '../components/footer/Footer';
+import Router from '../routes/Router';
 
 function App() {
-  return (
-    <div className="app">
-      <Header />
-      <Home />
-      <Footer />
-    </div>
-  );
+	return (
+		<Suspense fallback="loading">
+			<div className='app'>
+				<Router />
+			</div>
+		</Suspense>
+	);
 }
 
 export default App;

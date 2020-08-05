@@ -1,6 +1,7 @@
 import React, { Component }from "react";
 import {
-  Container, Section, Row, Col } from '../../ui/swUI';
+  Container, Section, Row, Col
+} from '../../../ui/swUI';
 import './Home.css';
 
 class Home extends Component {
