@@ -4,7 +4,7 @@ import Home from '../pages/private/home/Home';
 import StyleGuide from '../ui/styleGuide/StyleGuide';
 
 /* Layouts */
-import PublicLayout from '../layouts/dashboard/DashboardLayout';
+import DashboardLayout from '../layouts/dashboard/DashboardLayoutContainer';
 
 export const routes = [
   {
@@ -12,7 +12,7 @@ export const routes = [
     exact: true,
     path: '/styleGuide',
     Component: StyleGuide,
-    Layout: PublicLayout,
+    Layout: DashboardLayout,
     Access: 'Public',
   },
   {
@@ -20,7 +20,7 @@ export const routes = [
     exact: true,
     path: '/',
     Component: Home,
-    Layout: PublicLayout,
+    Layout: DashboardLayout,
     Access: 'Public',
   },
   {
@@ -28,7 +28,7 @@ export const routes = [
     exact: true,
     path: '*',
     Component: Error404,
-    Layout: PublicLayout,
+    Layout: DashboardLayout,
     Access: 'Public',
   },
 ];
