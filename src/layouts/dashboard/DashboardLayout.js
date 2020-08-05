@@ -9,15 +9,15 @@ class DashboardLayout extends Component {
 		this.state = {};
 	}
 
-	/*UNSAFE_componentWillMount() {
-		const queryParams = {
+	UNSAFE_componentWillMount() {
+		const device = {
 			classification_id: 5,
 			device_identifier: 'web',
 			locale: 'es',
 			market_code: 'es',
 		};
-		this.props.getMovies(queryParams);
-	}*/
+		this.props.setDevice(device);
+	}
 	
 	render() {
 		const { children} = this.props;
